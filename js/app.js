@@ -1,3 +1,5 @@
+'use strict'
+
 $(function () {
     var screenVal = $("input:text");
     
@@ -15,6 +17,7 @@ $(function () {
     event.preventDefault();
     screenVal.val(eval(screenVal.val()));
     });
+    
 });
 
 
